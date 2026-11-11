@@ -1,0 +1,140 @@
+ @font-face {
+  font-family: "Terminus";
+  src: url("Terminus (TTF) Bold 700.ttf");
+  src: url ("Terminus (TTF) Bold 700.ttf") format("truetype");
+ }
+  @font-face {
+    font-family: "AnticDidone";
+    src: url("AnticDidone-Regular.ttf");
+}
+h1 {
+  padding:0;
+  margin-top: 0;
+}
+
+body {
+  color: white;
+  width: 1200px;
+  height:600px;
+  background-color: black;
+  background-image: url("nexusofhumanitybackground.jpg");
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin: auto;
+  padding:0;
+  font-family: "AnticDidone";
+}
+
+.navbar {
+  border: 5px solid rgba(184,115,51);
+  background-color: black;
+  border-radius: 5px;
+  width: 210px;
+  margin: auto;
+  position: absolute;
+  margin-top: 47px;
+  right: 1680px;
+  padding: 10px;
+}
+.centrebox1 {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: black;
+  font-size: 20px;
+  margin:auto;
+  width: 655px;
+  padding: 10px;
+  position: absolute;
+  margin-top: 47px;
+  left: 0px;
+  right: 755px;
+}
+.centrebox2 {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: black;
+  font-size: 20px;
+  margin:auto;
+  width: 655px;
+  padding: 10px;
+  position: absolute;
+  left: 514px;
+  right: 514px;
+  margin-top: 426px;
+}
+.rightcentrebox {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: black;
+  font-size: 20px;
+  margin:auto;
+  width:332.5px;
+  position: absolute;
+  right:610px;
+  margin-top: 1017px;
+  margin-left: 1px;
+}
+.leftcentrebox {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  margin:auto;
+  width:332.5px;
+  position: absolute;
+  left:610px;
+  margin-top: 1017px;
+}
+.leftbox1 {
+  border: 5px solid rgba(184,115,51);
+  border-image: url('Images/border.png') 5;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  width: 210px;
+  margin:auto;
+  margin-top: 47px;
+  position: absolute;
+  left:390px;
+  padding-bottom: 648px;
+}
+.rightbox1 {
+  border: 5px solid rgba(184,115,51);
+  border-image: url('Images/border.png') 5;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  width: 210px;
+  margin:auto;
+  margin-top: 47px;
+  position: absolute;
+  Right:390px;
+  padding-bottom: 490px;
+}
+a:link {
+  color:rgba(247,232,0,255);
+  font-weight: bold;
+}
+a:visited {
+  color: rgba(247,232,0,255);
+}
+a:hover {
+  text-decoration: none;
+}
+.incomplete {
+  color: orange;
+}
+.unavalable {
+  color: red;
+}
+.special {color:rgba(247,232,0,255); font-weight: bold;}
+.secret {color: black;}
+.abtimg {
+      max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+.abttext {    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 0;
+    float: top;}

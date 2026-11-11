@@ -1,0 +1,440 @@
+  @font-face {
+  font-family: "Terminus";
+  src: url("./Fonts/Terminus (TTF) Bold 700.ttf");
+ }
+.navbar {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  width: 820px;
+  margin: auto;
+  position: static;
+  margin-top: 0px;
+  left: 390px;
+  padding: 10px;
+  right: 390px;
+  font-size: 20px;
+}
+
+
+.centrebox1 {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  margin-top: 0px;
+  text-align: left;
+}
+.centrebox2 {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  margin-top: 0px;
+  text-align: left;
+}
+  .centrebox3 {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  text-align: left;
+}
+
+  .footer {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  text-align: left;
+}
+  
+.inlinecol {
+  display: inline-flex;
+  }
+  
+.rightcentrebox {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  font-size: 25px;
+  margin:auto;
+  width:370px;
+  height: 550px;
+  position: relative;
+/* margin-left: 468px; */
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+.leftcentrebox {
+  border: 10px solid orange;
+  border-image: url('./Images/border.png') 5;
+  border-image-slice: 10;
+  border-image-repeat: round;
+  background-color: rgba(21,10,26,255);
+  font-size: 25px;
+  height: 550px;
+  margin:auto;
+  width:370px;
+  position: relative;
+  left: 0px; 
+ /* top: -414px; */
+  /* margin-top: -414px; */
+/* margin-left: 251px; */
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+
+}
+
+
+
+
+
+
+h1 {
+  padding:0;
+  margin-top: 0;
+  padding-top: 10px;
+}
+body.general {
+  color: white;
+  height:600px;
+  background-color: black;
+  background-image: url("./Images/background.png");
+  background-size:auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin: auto;
+  padding:0;
+  font-family: "Terminus", monospace;
+  overflow-x: hidden;
+  scrollbar-color: white rgba(21,10,26,255);
+}
+
+body.nexushumanity {
+  color: white;
+  width: 1200px;
+  height:600px;
+  background-color: black;
+  background-image: url("Images/nexusofhumanitybackground.jpg");
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin: auto;
+  padding:0;
+  font-family: "AnticDidone";
+}
+
+.lcbscroll   {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+
+h1 {
+  font-size: 50px;
+  
+}
+
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+p {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.nexushnavbar {
+  border: 5px solid rgba(184,115,51);
+  background-color: black;
+  border-radius: 5px;
+  width: 210px;
+  margin: auto;
+  position: absolute;
+  margin-top: 47px;
+  right: 1680px;
+  padding: 10px;
+}
+.nexushcentrebox1 {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: black;
+  font-size: 20px;
+  margin:auto;
+  width: 655px;
+  padding: 10px;
+  position: absolute;
+  margin-top: 47px;
+  left: 0px;
+  right: 755px;
+}
+.nexushcentrebox2 {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: black;
+  font-size: 20px;
+  margin:auto;
+  width: 655px;
+  padding: 10px;
+  position: absolute;
+  left: 514px;
+  right: 514px;
+  margin-top: 426px;
+}
+.nexushrightcentrebox {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: black;
+  font-size: 20px;
+  margin:auto;
+  width:332.5px;
+  position: absolute;
+  right:610px;
+  margin-top: 1017px;
+  margin-left: 1px;
+}
+.nexushleftcentrebox {
+  border: 5px solid rgba(184,115,51);
+  border-radius: 5px;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  margin:auto;
+  width:332.5px;
+  position: absolute;
+  left:610px;
+  margin-top: 1017px;
+}
+.nexushleftbox1 {
+  border: 5px solid rgba(184,115,51);
+  border-image: url('Images/border.png') 5;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  width: 210px;
+  margin:auto;
+  margin-top: 47px;
+  position: absolute;
+  left:390px;
+  padding-bottom: 648px;
+}
+.nexushrightbox1 {
+  border: 5px solid rgba(184,115,51);
+  border-image: url('Images/border.png') 5;
+  background-color: rgba(21,10,26,255);
+  font-size: 20px;
+  width: 210px;
+  margin:auto;
+  margin-top: 47px;
+  position: absolute;
+  Right:390px;
+  padding-bottom: 490px;
+}
+
+
+
+
+body.linus {
+  color: white;
+  width: 1200px;
+  height:600px;
+  background-color: black;
+  background-image: url("./Images/Jlinux.png");
+  background-size:cover;
+  background-position: left;
+  background-size: 200px 300px;
+  text-align:center;
+  margin: auto;
+  padding:0;
+  font-family: "Terminus", monospace;
+}
+
+.linusnavbar {
+  border: 10px solid white;
+  background-color: black;
+  width: 820px;
+  margin: auto;
+  position: static;
+  margin-top: 0px;
+  left: 390px;
+  padding: 10px;
+  right: 390px;
+  font-size: 20px;
+}
+.linuscentrebox1 {
+  border: 10px solid white;
+  background-color: black;
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  margin-top: 0px;
+  text-align: left;
+}
+.linuscentrebox2 {
+  border: 10px solid white;
+  background-color: black;
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  margin-top: 0px;
+  text-align: left;
+}
+.linuscentrebox3 {
+  border: 10px solid white;
+  background-color: black;
+  font-size: 20px;
+  margin: auto;
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+  text-align: left;
+}
+
+.linusrightcentrebox {
+  border: 10px solid white;
+  border-image: url('Images/bordeer.png') 5;
+  background-color: black;
+  font-size: 25px;
+  height: 550px;
+  margin:auto;
+  width:370px;
+  position: relative;
+  left: 0px; 
+ /* top: -414px; */
+  /* margin-top: -414px; */
+/* margin-left: 251px; */
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+.linusleftcentrebox {
+  border: 10px solid white;
+  border-image: url('Images/bordee3r.png') 5;
+  background-color: black;
+  font-size: 25px;
+  height: 550px;
+  margin:auto;
+  width:370px;
+  position: relative;
+  left: 0px; 
+ /* top: -414px; */
+  /* margin-top: -414px; */
+/* margin-left: 251px; */
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
+
+
+a:link {
+  color:rgba(247,232,0,255);
+  font-weight: bold;
+}
+a:visited {
+  color: rgba(247,232,0,255);
+}
+a:hover {
+  text-decoration: none;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+
+.incomplete {
+  color: orange;
+}
+.unavalable {
+  color: red;
+}
+.special {color:rgba(247,232,0,255); font-weight: bold;}
+.secret {color: black;}
+.abtimg {
+      max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+.abttext {    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 0;
+    float: top;}
+
+
+
+
