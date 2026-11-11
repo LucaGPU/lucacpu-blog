@@ -21,3 +21,4 @@ jobs:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true # true: delete neocities files that doesn't exist on the repo. false: ignore these files
         dist_dir: . #the folder in which the site is
+
